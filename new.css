@@ -1,0 +1,93 @@
+
+
+:root {
+  --primary-color:        #f13a11;
+  --white-color:          #ffffff;
+  --dark-color:           #171819;
+  --about-bg-color:       #f9f9f9;
+
+  --gray-color:           #909090;
+  --link-color:           #404040;
+  --p-color:              #666262;
+
+  --base-font-family:     'Plain', sans-serif;
+  --font-weight-bold:     bold;
+  --font-weight-normal:   normal;
+  --font-weight-light:    300;
+  --font-weight-thin:     100;
+
+  --h1-font-size:         48px;
+  --h2-font-size:         36px;
+  --h3-font-size:         28px;
+  --h4-font-size:         24px;
+  --h5-font-size:         22px;
+  --h6-font-size:         22px;
+  --p-font-size:          18px;
+  --base-font-size:       16px;
+  --menu-font-size:       14px;
+
+  --border-radius-large:  100%;
+  --border-radius-small:  2px;
+}
+ .navbar {
+    background: var(--dark-color);
+    padding: 1rem;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .navbar-brand {
+    color: var(--white-color);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: normal;
+    padding-top: 0;
+  }
+  
+  .nav-item .nav-link {
+    display: block;
+    color: var(--white-color);
+    padding: 2px 6px;
+  }
+  
+  .nav-item .nav-link.active,
+  .nav-item .nav-link:hover {
+    color: var(--primary-color);
+  }
+  
+ 
+  .hero {
+    background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+  }
+ h1{
+     font-size:  80px;
+ }
+
+h5{
+    padding-top: 10px;
+}
+h6{
+  padding-top: 10px;
+}
+p{
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+h4{
+  padding-top: 80px;
+  text-align: left;
+  padding-left: 10px;
+}
+h3{
+  padding-top:100px;
+}
